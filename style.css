@@ -86,4 +86,10 @@ th {
     text-decoration: none;
     color: rgb(64, 211, 204);
     margin: 0 15px;
+    transition: color 0.3s ease; /* плавный переход цвета */
 }
+
+.links a:hover {
+    color: rgb(255, 99, 71); /* цвет при наведении */
+}
+
